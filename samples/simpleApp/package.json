@@ -1,0 +1,24 @@
+{
+  "name": "create-shardus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "scripts/start.sh",
+    "stop": "scripts/stop.sh",
+    "clean": "scripts/clean.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shardus-enterprise-server": "git+https://gitlab.com/shardus/enterprise/shardus-enterprise-server.git"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "monitor-client": "git+https://gitlab.com/shardus/enterprise/monitor-client.git",
+    "monitor-server": "git+https://gitlab.com/shardus/enterprise/monitor-server.git",
+    "pm2": "^3.5.0",
+    "seed-node-server": "git+https://gitlab.com/shardus/enterprise/seed-node-server.git"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "shardus-tool",
+  "version": "1.0.0",
+  "description": "Shardus toolbox module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "shardus": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:shardus/enterprise/shardus-tool.git"
+  },
+  "author": "Shardus",
+  "license": "ISC",
+  "dependencies": {
+    "caporal": "^1.2.0",
+    "shelljs": "^0.8.3"
+  }
+}
