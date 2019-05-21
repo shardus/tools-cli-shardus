@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "caporal": "^1.2.0",
+    "shardus-init": "gitlab:shardus/enterprise/tools/shardus-init",
     "shelljs": "^0.8.3"
   }
 }
