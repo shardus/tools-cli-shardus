@@ -5,7 +5,7 @@ const shardusNetwork = require('shardus-network')
 
 prog
     .bin('shardus')
-    .name('Shardus Tool')
+    .name('Shardus CLI')
     .version('1.0.0')
     // init command, to create a new sample project
     .command('init', 'Creates a sample shardus network project')
