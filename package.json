@@ -1,5 +1,5 @@
 {
-  "name": "shardus-tool",
+  "name": "shardus-cli",
   "version": "1.0.0",
   "description": "Shardus toolbox module",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:shardus/enterprise/shardus-tool.git"
+    "url": "git@gitlab.com:shardus/enterprise/tools/shardus-cli.git"
   },
   "author": "Shardus",
   "license": "ISC",
