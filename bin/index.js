@@ -10,6 +10,7 @@ prog
     // init command, to create a new sample project
     .command('init', 'Creates a sample shardus network project')
     .argument('<appName>', 'Project name')
+    .argument('[templateRepo]', 'Git repo containing a template created with hygen')
     .option('--no-install', 'Do not run npm install on the new sample project folder')
     .action(actions.init)
 
