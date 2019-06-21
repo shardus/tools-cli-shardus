@@ -27,6 +27,10 @@ prog
     .command('network list', 'List all pm2 managed process')
     .action(shardusNetwork.Actions.list)
     
+    // Clean network state
+    .command('network clean', 'Cleans the state of all server instances to a fresh start.')
+    .action(shardusNetwork.Actions.clean)
+    
     // Stop node pm2 proxy
     .command('network stop', 'Stops given pm2 managed process by its name, pm2_id or <all>')
     .argument('<reference>', 'Process id, name or all')
