@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const prog = require('caporal')
 const shardusInit = require('shardus-init')
 const shardusNetwork = require('shardus-network')
