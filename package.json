@@ -18,9 +18,9 @@
   "license": "ISC",
   "dependencies": {
     "caporal": "1.2.0",
-    "shardus-init": "git+https:gitlab.com/shardus/enterprise/shardus-init",
-    "shardus-network": "git+https:gitlab.com/shardus/enterprise/shardus-network",
-    "shardus-debug": "git+https:gitlab.com/shardus/enterprise/shardus-debug",
+    "shardus-init": "git+https:gitlab.com/shardus/enterprise/tools/shardus-init",
+    "shardus-network": "git+https:gitlab.com/shardus/enterprise/tools/shardus-network",
+    "shardus-debug": "git+https:gitlab.com/shardus/enterprise/tools/shardus-debug",
     "shelljs": "0.8.3"
   },
   "devDependencies": {
