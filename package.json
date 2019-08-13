@@ -4,7 +4,8 @@
   "description": "Shardus CLI module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node ./scripts/preinstall.js"
   },
   "bin": {
     "shardus": "./bin/index.js"
@@ -17,8 +18,9 @@
   "license": "ISC",
   "dependencies": {
     "caporal": "1.2.0",
-    "shardus-init": "git+https:gitlab.com/shardus/enterprise/tools/shardus-init",
-    "shardus-network": "git+https:gitlab.com/shardus/enterprise/tools/shardus-network",
+    "shardus-init": "../refactor-init",
+    "shardus-network": "../refactor-network",
+    "shardus-debug": "../refactor-debug",
     "shelljs": "0.8.3"
   }
 }
