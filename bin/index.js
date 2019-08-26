@@ -12,9 +12,6 @@ prog
 
 for (const command in shardusInit.register) shardusInit.register[command](prog)
 for (const command in shardusNetwork.register) shardusNetwork.register[command](prog, 'network')
-
-shardusDebug.register.debug(prog)
-delete shardusDebug.register.debug
 for (const command in shardusDebug.register) shardusDebug.register[command](prog, 'debug')
 
 prog.parse(process.argv)
