@@ -1,7 +1,7 @@
 {
-  "name": "shardus-cli",
+  "name": "shardus",
   "version": "1.0.0",
-  "description": "Shardus CLI module",
+  "description": "The Shardus command line tool.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
