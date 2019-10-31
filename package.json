@@ -1,6 +1,6 @@
 {
   "name": "shardus",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "The Shardus command line tool.",
   "main": "index.js",
   "scripts": {
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:shardus/enterprise/tools/shardus-cli.git"
+    "url": "git@gitlab.com:shardus/tools/shardus-cli.git"
   },
   "author": "Shardus",
   "license": "ISC",
   "dependencies": {
     "caporal": "^1.3.0",
-    "shardus-debug": "git+https://gitlab.com/shardus/enterprise/tools/shardus-debug.git",
-    "shardus-init": "git+https://gitlab.com/shardus/enterprise/tools/shardus-init.git",
-    "shardus-network": "git+https://gitlab.com/shardus/enterprise/tools/shardus-network.git",
+    "shardus-debug": "git+https://gitlab.com/shardus/tools/shardus-debug.git",
+    "shardus-init": "git+https://gitlab.com/shardus/tools/shardus-init.git",
+    "shardus-network": "git+https://gitlab.com/shardus/tools/shardus-network.git",
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
