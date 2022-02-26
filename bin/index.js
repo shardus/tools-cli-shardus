@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 const prog = require('caporal')
-const shardusNetwork = require('shardus-network')
-const shardusDebug = require('shardus-debug')
+const shardusNetwork = require('@shardus/network-tool')
+const shardusDebug = require('@shardus/debug-tool')
 const packageJson = require('../package.json')
 
 prog

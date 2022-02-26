@@ -6,19 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "shardus": "./bin/index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git@gitlab.com:shardus/tools/shardus-cli.git"
   },
+  "bin": {
+    "shardus": "./bin/index.js"
+  },
   "author": "Shardus",
   "license": "ISC",
   "dependencies": {
-    "caporal": "^1.3.0",
-    "shardus-debug": "git+https://gitlab.com/shardus/tools/shardus-debug.git",
-    "shardus-network": "git+https://gitlab.com/shardus/tools/shardus-network.git#semver:^4.2.2",
+    "@shardus/debug-tool": "^1.0.1",
+    "@shardus/network-tool": "^4.2.3",
+    "caporal": "^1.4.0",
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
