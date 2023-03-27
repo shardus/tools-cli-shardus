@@ -17,9 +17,9 @@
     in {
       packages.default = pkgs.buildNpmPackage {
         name = "shardus";
-        version = "4.2.4";
+        version = "4.2.5";
         src = ./.;
-        npmDepsHash = "sha256-MjyfSzFzr9JVznsd0o8mXiBO2DTjycj86bFDrj2Q/a0=";
+        npmDepsHash = "sha256-9V0s6M/7Ha/zTHHeuN9LHG1c3R9hd1Q8oJra2WrbdJA=";
         makeCacheWritable = true;
         dontNpmBuild = true;
       };
