@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "plugins": ["security"],
+  "extends": ["eslint:recommended", "plugin:security/recommended", "prettier"],
+  "ignorePatterns": [],
+  "overrides": [{
+    "files": ["**/*.js"]
+  }],
+  "rules": {
+    "no-empty": [
+      1,
+      {
+        "allowEmptyCatch": true
+      }
+    ]
+  }
+}
