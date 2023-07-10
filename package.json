@@ -15,19 +15,22 @@
   "bin": {
     "shardus": "./bin/index.js"
   },
+  "engines": {
+    "node": "18.16.1"
+  },
   "author": "Shardus",
   "license": "ISC",
   "dependencies": {
-    "@shardus/debug-tool": "^1.0.1",
-    "@shardus/network-tool": "^4.3.2",
-    "caporal": "^1.4.0",
-    "shelljs": "^0.8.3",
-    "eslint": "^8.43.0"
+    "@shardus/debug-tool": "1.0.1",
+    "@shardus/network-tool": "^4.3.0",
+    "caporal": "1.4.0",
+    "shelljs": "0.8.3",
+    "eslint": "8.43.0"
   },
   "devDependencies": {
-    "standard": "^13.1.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-security": "^1.7.1",
-    "prettier": "^2.7.1"
+    "standard": "13.1.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-security": "1.7.1",
+    "prettier": "2.7.1"
   }
 }
