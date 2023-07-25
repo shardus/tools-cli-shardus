@@ -1,6 +1,6 @@
 {
   "name": "shardus",
-  "version": "4.2.5",
+  "version": "4.2.6",
   "description": "The Shardus command line tool.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "@shardus/debug-tool": "^1.0.1",
-    "@shardus/network-tool": "^4.3.0",
+    "@shardus/network-tool": "^4.3.2",
     "caporal": "^1.4.0",
     "shelljs": "^0.8.3"
   },
