@@ -4,6 +4,7 @@
   "description": "The Shardus command line tool.",
   "main": "index.js",
   "scripts": {
+    "release": "np --no-tests --no-yarn",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint",
     "format-check": "prettier --check '**.js'"
@@ -22,7 +23,7 @@
   "license": "ISC",
   "dependencies": {
     "@shardus/debug-tool": "1.0.1",
-    "@shardus/network-tool": "^4.3.0",
+    "@shardus/network-tool": "4.4.0",
     "caporal": "1.4.0",
     "shelljs": "0.8.3",
     "eslint": "8.43.0"
@@ -31,6 +32,7 @@
     "standard": "13.1.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-security": "1.7.1",
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "np": "8.0.4"
   }
 }
