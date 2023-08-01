@@ -4,7 +4,7 @@
   "description": "The Shardus command line tool.",
   "main": "index.js",
   "scripts": {
-    "release": "np --no-tests --no-yarn",
+    "release": "np --no-cleanup --no-tests --no-yarn",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint",
     "format-check": "prettier --check '**.js'"
