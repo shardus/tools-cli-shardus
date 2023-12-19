@@ -25,7 +25,7 @@
     "@shardus/debug-tool": "1.0.1",
     "@shardus/network-tool": "4.4.0",
     "caporal": "1.4.0",
-    "shelljs": "0.8.3",
+    "shelljs": "0.8.5",
     "eslint": "8.43.0"
   },
   "devDependencies": {
