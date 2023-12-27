@@ -21,7 +21,7 @@
         name = packageLock.name;
         version = packageLock.version;
         src = ./.;
-        npmDepsHash = "sha256-IumdK64YlQU7nA5DFj0g0oPdXoJxblS8+VyHKHh+WHs=";
+        npmDepsHash = "sha256-6/oZwUMKuJBjCl1Fqta0JJ3TnANE99x54YD6kewJpMQ=";
         makeCacheWritable = true;
         dontNpmBuild = true;
       };
