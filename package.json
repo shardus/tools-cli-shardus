@@ -23,7 +23,7 @@
   "license": "ISC",
   "dependencies": {
     "@shardus/debug-tool": "1.0.2",
-    "@shardus/network-tool": "4.4.0",
+    "@shardus/network-tool": "../shardus-network",
     "caporal": "1.4.0",
     "shelljs": "0.8.5",
     "eslint": "8.43.0"
