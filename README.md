@@ -2,7 +2,7 @@
 
 The Shardus command line tool.
 
-Check out the [docs](https://shardus.gitlab.io/docs/developer/tools/shardus-cli-tool/) for details.
+Check out the [docs](https://docs.shardus.com/docs/tools/shardus-cli-tool/README) for details.
 
 ---
 
