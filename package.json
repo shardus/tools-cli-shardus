@@ -34,5 +34,9 @@
     "eslint-plugin-security": "1.7.1",
     "prettier": "2.7.1",
     "np": "8.0.4"
+  },
+  "overrides": {
+    "follow-redirects": "1.15.4",
+    "axios": "1.6.0"
   }
 }
